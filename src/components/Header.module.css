@@ -1,0 +1,106 @@
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+    background-color: #F5F5F5;
+    height: 15vh;
+    width: 104vw;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.533);
+   
+}
+
+.linklist {
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10vw;
+}
+
+.linklist li {
+    margin-right: 5em;
+
+}
+
+.linklist li a {
+  padding: 1rem 0.5rem;
+    color: black;
+    font-weight: 600;
+    text-transform: uppercase;
+    
+    text-decoration: none;
+   
+}
+
+
+
+
+.logo {
+    width: 100px;
+    border-radius: 5px;
+    margin-left: 10rem;
+
+}
+
+.button{
+    display: flex;
+    gap: 0.5em;
+    background-color: #F5F5F5;
+    color: red;
+    font-size: 1.1em;
+    padding: 0.7em 1em;
+    border: 2px solid  rgb(0, 166, 0);
+    border-radius: 7px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    
+  }
+  .button:hover{
+    background-color: rgba(0, 142, 0, 0.647);
+    color: white;
+    border: 2px solid rgba(0, 142, 0, 0.647);
+  }
+ 
+  .icon_menu{
+    position: relative;
+    margin-top: 1rem;
+    margin-right: 1rem;
+    color: black;
+    font-size: 2em;
+    padding-left: 2em;
+    display: none;
+  }
+
+
+    .active{
+     border-bottom: 2px solid rgba(0, 0, 0, 0.399); 
+   
+    }
+
+  @media screen and (min-width:700px) and (max-width: 1000px){
+    body{
+      font-size: 0.9em;
+    }
+    .logo{
+      margin-left: 30px;
+    }
+  }
+  @media screen and (max-width:699px){
+    .linklist{
+      display: none;
+    }
+    .logo{
+      margin-left: 30px;
+    }
+    .icon_menu{
+      position: absolute;
+      display: inline-block;
+      cursor: pointer;
+      top: 0;
+      right: 0;
+    
+    }
+  }
+
+    

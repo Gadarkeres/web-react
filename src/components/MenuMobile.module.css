@@ -1,0 +1,40 @@
+.linklist_m {
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10vw;
+}
+
+.linklist_m li {
+    margin-right: 5em;
+
+}
+
+.linklist_m li a {
+    color: white;
+    font-weight: 600;
+    text-transform: uppercase;
+    transition: 0.5s ease-in-out;
+   
+}
+
+.linklist_m li a:hover {
+    color: #84C318; 
+    border-bottom: 1px solid #84C318;;
+
+}
+
+.button{
+    display: flex;
+    gap: 0.5em;
+    background-color: #0F1020;
+    color: white;
+    font-size: 1.1em;
+    padding: 0.7em 1em;
+    border: 1px solid  #84C318;
+    border-radius: 7px;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+    
+  }
