@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/web-react/static/css/main.72113e6b.css",
+    "main.js": "/web-react/static/js/main.e74ef27d.js",
+    "static/js/787.9cae969b.chunk.js": "/web-react/static/js/787.9cae969b.chunk.js",
+    "static/media/img-bg.png": "/web-react/static/media/img-bg.71b624730201bd7a86d2.png",
+    "static/media/casal.png": "/web-react/static/media/casal.fa0face3316b576585f3.png",
+    "static/media/img3.jpg": "/web-react/static/media/img3.4c6e607676f5a4b51e40.jpg",
+    "static/media/img4.jpg": "/web-react/static/media/img4.f6a6f8db4348f8b55e64.jpg",
+    "static/media/img2.jpg": "/web-react/static/media/img2.d73065bd54dcab03c369.jpg",
+    "static/media/img1.jpg": "/web-react/static/media/img1.c42ea5474cd502efece0.jpg",
+    "static/media/logo.jpg": "/web-react/static/media/logo.4b8b557ace1494f707c1.jpg",
+    "index.html": "/web-react/index.html",
+    "main.72113e6b.css.map": "/web-react/static/css/main.72113e6b.css.map",
+    "main.e74ef27d.js.map": "/web-react/static/js/main.e74ef27d.js.map",
+    "787.9cae969b.chunk.js.map": "/web-react/static/js/787.9cae969b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.72113e6b.css",
+    "static/js/main.e74ef27d.js"
+  ]
+}
