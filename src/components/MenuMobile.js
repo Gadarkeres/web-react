@@ -24,7 +24,7 @@ const MenuMobile = ({ menuisvisible, setMenuisvisible }) => {
                      <NavLink onClick={() => setMenuisvisible(false) } to={"/projetos"}>Nosso trabalho</NavLink>{/* <<< também fechará o menu*/}
                     </li>
                     <li>
-                        <a className='button' href="https://api.whatsapp.com/send?phone=5544999993269" target='blank' > <FaWhatsapp />CONTATO</a>
+                        <a className='button' href="#" target='blank' > <FaWhatsapp />CONTATO</a>
                        
                     </li>
                 </ul>

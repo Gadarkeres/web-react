@@ -29,7 +29,7 @@ const Header = ({setMenuisvisible}) => {
                    <NavLink to={"/projetos"}className={({isActive}) => (isActive ? styles.active: '')} >Nosso trabalho</NavLink>
                 </li>
                 <li>
-                    <a className={styles.button} href="https://api.whatsapp.com/send?phone=5544999993269" target='blank' > <FaWhatsapp/>CONTATO</a>
+                    <a className={styles.button} href="#" target='blank' > <FaWhatsapp/>CONTATO</a>
                     <div>
                
                      </div>
